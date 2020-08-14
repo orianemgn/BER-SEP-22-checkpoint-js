@@ -185,4 +185,5 @@ button {
   border-radius: 4px;
   background-color: #f76c6c;
   border: none;
+  cursor: pointer;
 }
