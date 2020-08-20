@@ -1,9 +1,13 @@
-.purple {
+.pink-bg {
   background-color: pink;
 }
 
-.purpleText {
+.pink-text {
   color: pink;
+}
+
+.purple-text {
+  color: #750ff7;
 }
 
 .description {
@@ -62,4 +66,17 @@
   margin: 20px;
   border-radius: 12px;
   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5);
+}
+
+img {
+  max-width: 100%;
+}
+
+.projects a {
+  color: #750ff7;
+}
+
+p {
+  padding-left: 15px;
+  padding-right: 15px;
 }
