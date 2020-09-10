@@ -23,6 +23,9 @@
 
       <!-- First banner with title, description, avatar and image desktop -->
       <section class="introduction">
+        <h1>FullStack Developer</h1>
+        <p>I code beautifully simple things. And I love what I do.</p>
+        <img src="image/avatar-bis.png" alt="me" />
         <figure class="desktop">
           <img src="image/desktop.svg" alt="desktop" />
         </figure>
@@ -30,9 +33,9 @@
 
       <!-- Second banner with description of your name and your presentation -->
       <section class="presentation">
-        <div class="description purple">
-          <h1>Hi, I’m <span id="name">Matt</span>. Nice to meet you.</h1>
-          <p>Since beginning my journey as a freelance developer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</p>
+        <div class="description pink-bg">
+          <h2>Hi, I’m <span id="name">Matt</span>. Nice to meet you.</h2>
+          <p>Since the beginning of my journey as a freelance developer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</p>
         </div>
 
         <!-- Bloc of list of skill front end and back end -->
@@ -40,11 +43,11 @@
           <div class="column">
             <figure class="skill">
               <img src="image/frontend.svg" alt="frontend" />
-              <h1>Back-end Developer</h1>
+              <h2>Back-end Developer</h2>
               <p>I like to code things from scratch.</p>
-              <h2 class="purpleText">Languages I speak:</h2>
+              <h2 class="pink-text">Languages I speak:</h2>
               <p>MySql</p>
-              <h2 class="purpleText">Dev Tools:</h2>
+              <h2 class="pink-text">Dev Tools:</h2>
               <ul>
                 <li>VScode</li>
               </ul>
@@ -53,12 +56,12 @@
           <div class="column">
             <figure class="skill">
               <img src="image/frontend.svg" alt="frontend" />
-              <h1>Front-end Developer</h1>
+              <h2>Front-end Developer</h2>
               <p>I love bringing ideas to life.</p>
-              <h2 class="purpleText">Languages I speak:</h2>
+              <h2 class="pink-text">Languages I speak:</h2>
               <p>HTML, CSS</p>
-              <h2 class="purpleText">Dev Tools:</h2>
-              <ul>
+              <h2 class="pink-text">Dev Tools:</h2>
+              <ul id="front-dev-tools">
                 <li>You can modify</li>
                 <li>You can modify</li>
                 <li>You can modify</li>
@@ -70,15 +73,15 @@
 
       <!-- Third banner with list of all your projects -->
       <section class="projects">
-        <div>
-          <h1>My Recent Work</h1>
+        <div class="heading">
+          <h2>My Recent Work</h2>
           <p>Here are a few projects I've worked on recently. Want to see more? Email me.</p>
         </div>
         <div class="contents">
           <div class="box">
             <img src="https://mattfarley.ca/img/logos/kybercore.svg" alt="logo-entreprise" />
             <p>Next level plug and play chassis systems for custom do-it-yourself lightsaber builds.</p>
-            <a disabled >In development</a>
+            <a class="disabled" >In development</a>
           </div>
           <div class="box">
             <img src="https://mattfarley.ca/img/logos/basin.svg" alt="logo-entreprise" />
@@ -93,24 +96,17 @@
           <div class="box">
             <img src="https://mattfarley.ca/img/logos/dovetail.svg" alt="logo-entreprise" />
             <p>A space and member management solution for coworking communities both big and small.</p>
-            <a disabled >Shutdown in 2017</a>
+            <a class="disabled" >Shutdown in 2017</a>
           </div>
         </div>
-      </section>
-
-      <!-- Footer -->
-      <section class="presentation">
-        <div class="description purple">
-          <img src="image/logo-white.svg" alt='logo-white' />
-          <h1>Living, learning, & leveling up one day at a time.</h1>
-        </div>
-       
-      </section>
-
-
+      </section>      
     </main>
-
+    <footer class="presentation">
+      <div class="description pink-bg">
+        <img src="image/logo-white.svg" alt='logo-white' />
+        <h2>Living, learning, & leveling up one day at a time.</h2>
+      </div>
+    </footer>
     <script src="js/portfolio.js"></script>
 </body>
-
 </html>
