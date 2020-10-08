@@ -30,18 +30,18 @@ Your 1st checkpoint !
 
 Réalise l'ensemble des algos présents
 
-> [algo-1.js](./site/algo/algo-1.js)
+> [algo-1.js](./algo/algo-1.js)
 >
-> [algo-2.js](./site/algo/algo-2.js)
+> [algo-2.js](./algo/algo-2.js)
 >
-> [algo-3.js](./site/algo/algo-3.js)
+> [algo-3.js](./algo/algo-3.js)
 
 BONUS (facultatif)
-> [algo-4.js](./site/algo/algo-4.js)
+> [algo-4.js](./algo/algo-4.js)
 >
-> [algo-5.js](./site/algo/algo-5.js)
+> [algo-5.js](./algo/algo-5.js)
 >
-> [algo-6.js](./site/algo/algo-6.js)
+> [algo-6.js](./algo/algo-6.js)
 
 ## Partie 3: Portfolio
 
