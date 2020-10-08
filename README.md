@@ -47,4 +47,4 @@ BONUS (facultatif)
 
 ### Attention, ce test est à réaliser sans Bootstrap, tu devras utiliser flexbox à la place !
 
-Suis les instructions contenues dans le fichier > [home.html](home.html)
+Suis les instructions contenues dans le fichier > [home.html](site/home.html)
