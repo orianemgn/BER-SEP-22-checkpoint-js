@@ -30,21 +30,21 @@ Your 1st checkpoint !
 
 Réalise l'ensemble des algos présents
 
-> [algo-1.js](./algo-1.js)
+> [algo1.js](./algo/algo1.js)
 >
-> [algo-2.js](./algo-2.js)
+> [algo2.js](./algo/algo2.js)
 >
-> [algo-3.js](./algo-3.js)
+> [algo3.js](./algo/algo3.js)
 
 BONUS (facultatif)
-> [algo-4.js](./algo-4.js)
+> [algo4.js](./algo/algo4.js)
 >
-> [algo-5.js](./algo-5.js)
+> [algo5.js](./algo/algo5.js)
 >
-> [algo-6.js](./algo-6.js)
+> [algo6.js](./algo/algo6.js)
 
 ## Partie 3: Portfolio
 
 ### Attention, ce test est à réaliser sans Bootstrap, tu devras utiliser flexbox à la place !
 
-Suis les instructions contenues dans le fichier > [home.html](site/home.html)
+Suis les instructions contenues dans le fichier > [home.html](./site/home.html)
