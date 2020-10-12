@@ -1,13 +1,11 @@
 /*
-écris une fonction, qui prend deux paramètres.
-Ces deux paramètres sont des arrays de string numbers.
-Ta fonction doit renvoyer un seul array avec la somme des
-éléments correspondants en string.
-Si l'un des deux éléments est vide, il doit être considéré comme 0.
-Exemple :
-sumArr( ["1", "2", "3"], ["2", "4", "1"] ) doit renvoyer ["3", "6", "4"]
-sumArr( ["2", "7", "3"], ["2", "4", "9"] ) doit renvoyer ["4", "11", "12"]
-sumArr( ["2", "7", "3", "8", "2"], ["2", "4", "9"] ) doit renvoyer ["4", "11", "12", "8", "2"]
+Write a function with two parameters. These parameters are arrays, holding numbers **stored as strings**.
+Your function should return **one** array, where every element is the sum of the two matching arguments's elements (ie: the first element in the resulting array equals the first element of the first argument plus the first element from the second argument).
+Note: If an element is empty, it should count as a 0.
+Ex: 
+sumArr( ["1", "2", "3"], ["2", "4", "1"] ) should return ["3", "6", "4"]
+sumArr( ["2", "7", "3"], ["2", "4", "9"] ) should return ["4", "11", "12"]
+sumArr( ["2", "7", "3", "8", "2"], ["2", "4", "9"] ) should return ["4", "11", "12", "8", "2"]
 */
 
 function sumArr(arrayA, arrayB) {

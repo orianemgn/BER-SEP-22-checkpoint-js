@@ -1,13 +1,11 @@
 /*
-Voici un tableau de personnes.
-Tu dois écire le code de la fonction findAdult, qui renvoie un
-nouveau tableau avec 2 tableaux à l'intérieur: 
-- Le premier avec uniquement les femmes adultes.
-- Le deuxième avec uniquement les hommes adultes.
-(Compte tenu qu'on est adulte à 18 ans)
-Exemple : output [ [femmes adultes], [hommes adultes] ]
+Here is an array of people. Write a function which will return a new array, itself containing two arrays:
+- The first one contains only adult females
+- The second one contains only adult males
+(Given a person is an adult if she/he is 18 or older)
 */
-const persons = [
+
+const people = [
   { name: "Mary Poppins", age: 32, sex: "female" },
   { name: "Tony Stark", age: 36, sex: "male" },
   { name: "John Doe", age: 12, sex: "male" },

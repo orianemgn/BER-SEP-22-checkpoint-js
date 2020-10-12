@@ -1,15 +1,12 @@
-/* Notre équipe de football participe à un championnat
-dans laquelle elle a joué 10 matchs.
-Le résultat d'un match est comme suit : "3-0"
-Le premier chiffre correspond au nombre de but que notre équipe a marqué.
-Le deuxième correspond au nombre de but que notre adversaire a marqué.
-Victoire : +3 points
-Match nul : +1 points
-Défaite : +0 point
-Ci-dessous, tu as un tableau avec tous les résultats de notre équipe,
-qui te permet de tester si ta fonction est bonne. Le résultat doit être 12
-écris la fonction qui nous permet de récupérer le nombre
-de points de notre équipe à la fin du championnat
+/*
+Our soccer team plays a tournament in which it played 10 matches.
+Match results are noted "3:0": first number is **our** team's goals count ; the second is the other team's.
+To know our team's score, we follow these rules:
+- Victory: 3pts
+- Draw: 1pt
+- Defeat: 0pt
+Given an array with our match's results, write a function which will return our score.
+To test your function, if you "feed" your function the array under this text, you should get 12 points.
 */
 
 const scores = [
