@@ -1,12 +1,10 @@
 /*
-Tu dois écrire une fonction permettant de déterminer si une année est bissextile.
-Elle renverra true si l'année passée en paramêtre est bissextile et false si ce n'est pas le cas.
-Pour rappel, une année est bissextile:
- - si elle est divisible par 4 sans être divisible par 100,
- ou
- - si elle est divisible par 400.
-Les années 2004, 2016 et 2020 sont bissextiles.
-Autre rappel: Tu dois utiliser l'opérateur modulo (%) pour vérifier si un nombre est divisible par un autre.
+Write a function which can determine whether a year is a leap year. It must return `true` if it is, and `false` otherwise.
+Reminder: A leap year checks **one** of these rules:
+- It's divisible by 4, without being divisible by 100
+- It's divisible by 400
+Ex: 2004, 2016 and 2020 are leap years
+Note bene: To check whether a number is divisible by another, you should use the "modulo" operator (%)
 */
 
 function isLeapYear(year) {

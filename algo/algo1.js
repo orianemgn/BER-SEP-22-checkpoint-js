@@ -1,9 +1,9 @@
-/* On te donne 2 angles d'un triangle.
-écris la fonction qui permet de récupérer la valeur du 3e angle.
-(Pour rappel, la somme des 3 angles d'un triangle est toujours égale à 180)
-Exemple :
-thirdAngle(90, 30) doit renvoyer 60
-thirdAngle(20, 80) doit renvoyer 80
+/*
+Write a function which, given two angles from a triangle, will return the value of the third one.
+(Reminder: the sum of the values of the three angles in a triangle is **always** 180°)
+Ex: 
+thirdAngle(90, 30) should return 60
+thirdAngle(20, 80) should return 80
 */
 
 function thirdAngle(a, b) {
