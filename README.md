@@ -2,33 +2,33 @@
 
 Your 1st checkpoint !
 
-**!!! PREMIERE ETAPE OBLIGATOIRE AVANT DE COMMENCER LE PREMIER EXERCICE !!!**
+**!!! FIRST MANDATORY STEP, TO DO BEFORE YOU READ ANY FURTHER !!!**
 
 ---
 
-- Clone ce projet
-- Crée une branche "nom_prenom", qui va contenir ton avancée. (nom_prenom sera remplacé par ton nom et ton prénom...)
+- Clone this project
+- Crete a branch named `lastname_firstname` (lower case, snake case), which will hold you work... _Of course, please replace "lastname" and "firstname" with your personal information ;-)_
 
 ---
 
-**A chaque fois que tu complètes un exercice:**
+**Every time you finish one of the exercises:**
 
-- Fais un commit avec un message EXPLICITE sur ta branche.
-- Fais un push de ta branche.
+- Create a commit with an EXPLICIT message on your branch
+- Push your work on GitHub
 
-## Étape 1 - Quiz
+## Step 1 - Quizz
 
-- Pour répondre au quiz rend toi sur [cette application](https://wild-quiz-client.herokuapp.com/).
-- Réponds aux questions du Quiz **Checkpoint 1 - JS**
-- Une fois le quiz terminé, copie le lien fourni par l'application
-- Crée un fichier Quiz.md à la racine du projet
-- Colles-y le lien que tu viens de récupérer
-- `commit` ton fichier
+- Visit [this app](https://wild-quiz-client.herokuapp.com/)
+- Take the "Checkpoint 1 - JS (EN)" quizz and answer the questions
+- Once you're done, copy the link provided by the app
+- Create a `quizz.md` at the project root
+- Paste the aformentionned link in it
+- Commit this file
 
 ---
-## Partie 2: Algorithme JS.
+## Step 2 - JS algorithms
 
-Réalise l'ensemble des algos présents
+Resolve these three exercises:
 
 > [algo1.js](./algo/algo1.js)
 >
@@ -36,15 +36,16 @@ Réalise l'ensemble des algos présents
 >
 > [algo3.js](./algo/algo3.js)
 
-BONUS (facultatif)
+If you have more time, you **can** work on these (optionnal):
+
 > [algo4.js](./algo/algo4.js)
 >
 > [algo5.js](./algo/algo5.js)
 >
 > [algo6.js](./algo/algo6.js)
 
-## Partie 3: Portfolio
+## Step 3 - Portfolio
 
-### Attention, ce test est à réaliser sans Bootstrap, tu devras utiliser flexbox à la place !
+*Nota bene: in this test, you **mustn't** use Bootstrap, use flexboxes in it's stead !*
 
-Suis les instructions contenues dans le fichier > [home.html](./site/home.html)
+Follow the instructions in [this file](./site/home.html)
