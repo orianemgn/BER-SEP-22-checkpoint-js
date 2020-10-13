@@ -7,7 +7,7 @@ Your 1st checkpoint !
 ---
 
 - Clone this project
-- Crete a branch named `lastname_firstname` (lower case, snake case), which will hold you work... _Of course, please replace "lastname" and "firstname" with your personal information ;-)_
+- Create a branch named `lastname_firstname` (lower case, snake case), which will hold you work... _Of course, please replace "lastname" and "firstname" with your personal information ;-)_
 
 ---
 
