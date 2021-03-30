@@ -26,9 +26,23 @@ Your 1st checkpoint !
 - `commit` ton fichier
 
 ---
+
 ## Partie 2: Algorithme JS.
 
-Réalise l'ensemble des algos présents
+Réalise l'ensemble des algos présents.
+Des tests unitaires sont présents, il te permettront de savoir si tes algos fonctionnent !
+
+Pour les lancer il faut avant tout installer les dépendances (avec `npm install` :wink:)".
+Ensuite tu pourras les exécuter :
+
+```sh
+npm test # cette commande exécute tous les tests
+
+npm run test:1 # cette commande lance les tests de l'algo 1 uniquement
+npm run test:2 # cette commande lance les tests de l'algo 2 uniquement
+# etc... pour tous les algos.
+
+```
 
 > [algo1.js](./algo/algo1.js)
 >
@@ -37,6 +51,7 @@ Réalise l'ensemble des algos présents
 > [algo3.js](./algo/algo3.js)
 
 BONUS (facultatif)
+
 > [algo4.js](./algo/algo4.js)
 >
 > [algo5.js](./algo/algo5.js)
