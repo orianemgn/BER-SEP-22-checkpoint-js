@@ -10,5 +10,4 @@ function thirdAngle(a, b) {
   // Your code here !
 }
 
-console.log(thirdAngle(90, 30));
-console.log(thirdAngle(20, 80));
+module.exports = thirdAngle;
