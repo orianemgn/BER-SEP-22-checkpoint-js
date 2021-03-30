@@ -26,9 +26,24 @@ Your 1st checkpoint !
 - Commit this file
 
 ---
+
 ## Step 2 - JS algorithms
 
 Resolve these three exercises:
+
+Unit tests are available. They will let you know if your algorithms are working correctly!
+
+First, install the dependencies (with `npm install` :wink:)".
+Then, you can run them :
+
+```sh
+npm test # this command runs all tests
+
+npm run test:1 # this command executes tests for the first algorithm only
+npm run test:2 # this command executes tests for the second algorithm only
+# etc... for every algorithms.
+
+```
 
 > [algo1.js](./algo/algo1.js)
 >
@@ -46,6 +61,6 @@ If you have more time, you **can** work on these (optionnal):
 
 ## Step 3 - Portfolio
 
-*Nota bene: in this test, you **mustn't** use Bootstrap, use flexboxes in it's stead !*
+_Nota bene: in this test, you **mustn't** use Bootstrap, use flexboxes in it's stead !_
 
 Follow the instructions in [this file](./site/home.html)

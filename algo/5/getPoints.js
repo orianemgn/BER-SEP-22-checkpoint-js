@@ -6,24 +6,13 @@ To know our team's score, we follow these rules:
 - Draw: 1pt
 - Defeat: 0pt
 Given an array with our match's results, write a function which will return our score.
-To test your function, if you "feed" your function the array under this text, you should get 12 points.
+To test your function, if you "feed" your function the array under this text, you should get 13 points.
 */
 
-const scores = [
-  "1:0",
-  "2:0",
-  "3:0",
-  "4:4",
-  "2:2",
-  "3:3",
-  "1:4",
-  "2:3",
-  "2:4",
-  "3:4"
-];
+const scores = ['1:0', '2:0', '3:0', '4:4', '2:2', '3:3', '1:4', '2:3', '2:4', '3:3'];
 
 function getPoints(array) {
   // Your code here !
 }
 
-console.log(getPoints(scores));
+module.exports = getPoints;

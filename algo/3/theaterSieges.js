@@ -20,3 +20,5 @@ function theaterSieges() {
 }
 
 console.log(theaterSieges());
+
+module.exports = theaterSieges;
