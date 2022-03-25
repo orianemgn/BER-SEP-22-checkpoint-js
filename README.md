@@ -16,18 +16,7 @@ Your 1st checkpoint !
 - Create a commit with an EXPLICIT message on your branch
 - Push your work on GitHub
 
-## Step 1 - Quizz
-
-- Visit [this app](https://wild-quiz-client.herokuapp.com/)
-- Take the "Checkpoint 1 - JS (EN)" quizz and answer the questions
-- Once you're done, copy the link provided by the app
-- Create a `quizz.md` at the project root
-- Paste the aformentionned link in it
-- Commit this file
-
----
-
-## Step 2 - JS algorithms
+## Step 1 - JS algorithms
 
 Resolve these three exercises:
 
@@ -59,7 +48,7 @@ If you have more time, you **can** work on these (optionnal):
 >
 > [algo6.js](./algo/6/sumArr.js)
 
-## Step 3 - Portfolio
+## Step 2 - Portfolio
 
 _Nota bene: in this test, you **mustn't** use Bootstrap, use flexboxes in it's stead !_
 
