@@ -13,6 +13,18 @@ const scores = ['1:0', '2:0', '3:0', '4:4', '2:2', '3:3', '1:4', '2:3', '2:4', '
 
 function getPoints(array) {
   // Your code here !
+  let count = null; 
+  for (let points in array){
+    let arrayPoints = array[points].split(':'); 
+    //console.log(arrayPoints)
+    //console.log(arrayPoints[0], arrayPoints[1])
+    if (arrayPoints[0] > arrayPoints[1]){
+      count += 3
+    } else if (arrayPoints[0] === arrayPoints[1]){
+      count += 1
+    } 
+  }
+  return count; 
 }
 
 module.exports = getPoints;
