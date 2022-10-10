@@ -12,16 +12,16 @@ function changeImage(e){
 const submitName = document.getElementById('submitName');
 const background = document.getElementsByClassName('description'); 
 const titleH2 = document.getElementsByClassName('pink-text'); 
-console.log("H2", titleH2);
-console.log("Backgroud", background[0].style)
-console.log(submitName);
+// console.log("H2", titleH2);
+// console.log("Backgroud", background[0].style)
+// console.log(submitName);
 submitName.addEventListener('click', changeName); 
 
 function changeName(e){
     const name = document.getElementById('name'); 
     let newBackground = prompt("Please enter a color", " #750ff7");
     let person = prompt("Please enter your name", "Harry Potter");
-    console.log(newBackground)
+    //console.log(newBackground)
     for (let i = 0; i < background.length; i++){
 
         background[i].style.backgroundColor  = newBackground;
@@ -34,6 +34,42 @@ function changeName(e){
         submitName.style.backgroundColor = newBackground;
         name.innerHTML = person;
 }
+
+
+const list = document.querySelectorAll("#front-dev-tools li"); 
+//console.log(list)
+const submitList = document.getElementById("submitList")
+
+const newList = ["VSCode","Terminal", "GitHub"]
+
+submitList.addEventListener("click", changeList); 
+
+function changeList(e){
+    for (let i = 0; i < list.length; i++){
+        //console.log(list[i].innerHTML)
+        
+            list[i].innerHTML = newList[i]
+    }
+}
+
+
+const listBackend = document.getElementById('backend-dev-tools'); 
+console.log(listBackend)
+const submitNew = document.getElementById("submitNew"); 
+const submitValue = document.getElementById("submitValue");
+
+
+submitNew.addEventListener("submit", addNew); 
+
+function addNew(e){
+
+    console.log(submitValue)
+
+
+
+}
+
+
 
 
 
