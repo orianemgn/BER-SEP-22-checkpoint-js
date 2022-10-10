@@ -121,15 +121,16 @@ p {
   flex-direction: column-reverse; 
 }
 
-#submitName {
+.submit {
   color: #fff;
   background-color: pink;
   border: 1px solid #ffff;
   border-radius: 3px;
-  padding: 10px
+  padding: 10px; 
+  margin: 10px; 
 }
 
-#submitName:hover {
+.submit:hover {
   color: red;
   background-color: #ffff;
 }

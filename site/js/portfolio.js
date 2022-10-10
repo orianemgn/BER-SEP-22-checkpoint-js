@@ -11,6 +11,8 @@ function changeImage(e){
 
 const submitName = document.getElementById('submitName');
 const background = document.getElementsByClassName('description'); 
+const titleH2 = document.getElementsByClassName('pink-text'); 
+console.log("H2", titleH2);
 console.log("Backgroud", background[0].style)
 console.log(submitName);
 submitName.addEventListener('click', changeName); 
@@ -20,9 +22,19 @@ function changeName(e){
     let newBackground = prompt("Please enter a color", " #750ff7");
     let person = prompt("Please enter your name", "Harry Potter");
     console.log(newBackground)
-        background[0].style.backgroundColor  = newBackground;
+    for (let i = 0; i < background.length; i++){
+
+        background[i].style.backgroundColor  = newBackground;
+    }
+
+    for ( let j = 0; j <titleH2.length; j++){
+        titleH2[j].style.color = newBackground; 
+    }
+        
         submitName.style.backgroundColor = newBackground;
         name.innerHTML = person;
-
 }
+
+
+
 
