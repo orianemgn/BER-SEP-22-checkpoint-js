@@ -80,3 +80,43 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+
+/*Navigation correction*/ 
+
+.navbar {
+  align-items: center;
+}
+
+.menu a {
+  color: #750ff7; 
+}
+
+.menu a:hover {
+  color: black; 
+}
+
+/*Section 1*/ 
+.introduction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introduction > img {
+  margin-bottom: 10px;
+}
+
+.desktop {
+  display: none; 
+}
+
+@media screen and (min-width: 700px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  .desktop{
+    display: block;
+  }
+}
+
