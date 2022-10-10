@@ -54,20 +54,36 @@ function changeList(e){
 
 
 const listBackend = document.getElementById('backend-dev-tools'); 
-console.log(listBackend)
+console.log("LIST", listBackend)
 const submitNew = document.getElementById("submitNew"); 
-const submitValue = document.getElementById("submitValue");
 
+let arrayListBackend = []; 
 
-submitNew.addEventListener("submit", addNew); 
+submitNew.addEventListener("click", addNew); 
 
 function addNew(e){
 
-    console.log(submitValue)
-
-
-
+    e.preventDefault()
+    const input = document.getElementById("submitValue");
+    console.log(input.value)
+    const newValue = input.value; 
+    //listBackend.appendChild(newValue);
+    arrayListBackend.push(newValue); 
 }
+
+console.log("ARRAY", arrayListBackend)
+
+
+
+for (let i = 0; i < listBackend.length; i++){
+    //console.log(listBackend[i])
+    const li = document.createElement("li");
+    li.appendChild(document.createTextNode(arrayListBackend[i]));
+    listBackend.appendChild(li);
+}
+
+
+
 
 
 
