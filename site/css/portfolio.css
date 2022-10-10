@@ -2,6 +2,10 @@
   background-color: pink;
 }
 
+.purple-bg {
+  background-color:#750ff7;
+}
+
 .pink-text {
   color: pink;
 }
@@ -72,6 +76,7 @@ img {
   max-width: 100%;
 }
 
+
 .projects a {
   color: #750ff7;
 }
@@ -82,7 +87,7 @@ p {
 }
 
 
-/*Navigation correction*/ 
+/*Oriane*/ 
 
 .navbar {
   align-items: center;
@@ -111,12 +116,46 @@ p {
   display: none; 
 }
 
+.skills {
+  display: flex; 
+  flex-direction: column-reverse; 
+}
+
+
 @media screen and (min-width: 700px) {
   .navbar {
     justify-content: space-between;
   }
   .desktop{
     display: block;
+  }
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .column:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .column:last-child {
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .heading {
+    text-align: center;
+  }
+  .contents {
+    display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  justify-content: space-evenly;
+	  align-items: stretch;
+	  align-content: space-around;
   }
 }
 
