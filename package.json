@@ -24,5 +24,6 @@
   "homepage": "https://github.com/WildCodeSchool/checkpoint-1-portfolio#readme",
   "devDependencies": {
     "jest": "^26.6.3"
-  }
+  },
+  "dependencies": {}
 }

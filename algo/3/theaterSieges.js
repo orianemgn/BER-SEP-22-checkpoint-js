@@ -16,7 +16,20 @@ Your final list should like this:
 */
 
 function theaterSieges() {
-  // Your code here !
+
+  let arr = []; 
+  
+  for (let i= 0; i<26; i++){
+    arr.push([]);
+    
+    arr[i].push( new Array(100)); 
+    
+    for (let j=0; j<100; j++){
+      arr[i][j] = `${i+1}-${j+1}`
+    }
+  }
+  return arr;
+  
 }
 
 console.log(theaterSieges());
